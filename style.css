@@ -12,11 +12,12 @@ body {
 .grid {
     padding: 10.25rem;
     display: grid;
-    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
 }
 
 .card {
-    padding: 2.5rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
