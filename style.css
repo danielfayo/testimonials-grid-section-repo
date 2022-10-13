@@ -14,24 +14,26 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
+    margin: auto;
 }
 
 .card {
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
-    border-radius: 1rem;
+    border-radius: 0.8rem;
 }
 
 .card img {
     border-radius: 6.25rem;
+    width: 2rem;
 }
 
 .details {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .text-details {
@@ -42,7 +44,7 @@ body {
 
 .text-details h4 {
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     font-weight: 500;
     letter-spacing: -1px;
 }
@@ -52,18 +54,25 @@ body {
     font-size: 0.75rem;
     font-weight: 500;
     letter-spacing: -1px;
+    opacity: 50%;
 }
 
 .card h2 {
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 1rem;
+    font-size: 1.15rem;
     font-weight: 600;
+    margin-bottom: 1.5rem;
+    line-height: 120%;
+    letter-spacing: 0.04rem;
 }
 
 .card p {
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 0.625rem;
+    font-size: 0.7rem;
     font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.05rem;
+    opacity: 75%;
 }
 
 .first-card {
@@ -72,7 +81,8 @@ body {
     grid-area: 1 / 1 / 2 / 3;
     background-image: url(./images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: 80% 0;
+    background-size: 20% 40%;
 }
 
 .second-card {
