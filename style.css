@@ -163,4 +163,14 @@ body {
     .grid {
         padding: 1.5rem;
     }
+
+    .card {
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width: 20rem) {
+    .grid {
+        padding: 1rem;
+    }
 }
